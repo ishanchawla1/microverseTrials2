@@ -1,17 +1,31 @@
-#button{
-  width: 35vw;  
-  display: flex;
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  width:100vw;
+}
+button{
+  width: 33%;  
+  display: inline-block;
   flex-direction: row;
   justify-content:space-around ;
+  height:5vw;
+  border-radius: 5px;
+  font-size:1.5em;
 }
-@media (min-width:500px) {
+@media (min-width:50px) {
     button{
-        flex-direction: column;
+        flex-direction: row;
     }
   }
 #nav-bar{
     position: fixed;
-    top:0;
-    left:0;
+    height:5vw;
+    top:5%;
+    /* left:5%; */
+    /* right:5%; */
     width: 100%;
+}
+#header-img{
+  max-width:inherit;
 }
