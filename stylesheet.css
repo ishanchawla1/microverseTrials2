@@ -1,0 +1,17 @@
+#button{
+  width: 35vw;  
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around ;
+}
+@media (min-width:500px) {
+    button{
+        flex-direction: column;
+    }
+  }
+#nav-bar{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
